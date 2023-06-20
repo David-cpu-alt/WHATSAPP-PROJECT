@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const images = () => {
-  return (
-    <View>
-      <Text>images</Text>
-    </View>
-  )
+const Call = () => {
+    return (
+        <View>
+            <Text>Call</Text>
+        </View>
+    )
 }
 
-export default images
+export default Call
 
 const styles = StyleSheet.create({})
