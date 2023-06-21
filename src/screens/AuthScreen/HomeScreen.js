@@ -5,22 +5,18 @@ import Toptab from '../../../navigator/Toptab'
 const HomeScreen = () => {
     return (
         <View style={styles.page}>
-            <StatusBar
-                backgroundColor="#228C22"
-                barStyle="light-content"
 
-            />
 
             <View style={styles.container}>
-                <View style={{ flexDirection: "row", justifyContent: "space-between", marginTop: SIZES.h6 }}>
+                <View style={{ flexDirection: "row", justifyContent: "space-between", marginTop: SIZES.h1 * 2 }}>
                     <Text style={{ color: COLORS.white, ...FONTS.body2, }}> Whatsapp</Text>
                     <Image source={icons.camera} style={{ height: "80%", width: "7%", marginTop: SIZES.h6, marginLeft: SIZES.h1 * 4, marginTop: SIZES.h1 * 0.08 }} />
                     <Image source={icons.search} style={{ height: "80%", width: "7%", marginLeft: SIZES.h1 * 1, marginTop: SIZES.h1 * 0.08 }} />
                     <Image source={icons.threedots} style={{ height: "80%", width: "7%", marginLeft: SIZES.h1 * 1, marginTop: SIZES.h1 * 0.08 }} />
                 </View>
                 {/* flex direction ends */}
-                <Toptab />
             </View>
+            <Toptab />
 
         </View>
     )
@@ -31,8 +27,8 @@ export default HomeScreen
 const styles = StyleSheet.create({
     page: { flex: 1, },
     container: {
-        height: "50%",
-        width: "100%",
+        // height: "50%",
+        width: SIZES.h1 * 13,
         backgroundColor: COLORS.green,
 
     },
