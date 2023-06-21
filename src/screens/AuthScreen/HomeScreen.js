@@ -8,7 +8,6 @@ const HomeScreen = () => {
             <StatusBar
                 backgroundColor="#228C22"
                 barStyle="light-content"
-                hidden={false}
 
             />
 
@@ -30,11 +29,13 @@ const HomeScreen = () => {
 export default HomeScreen
 
 const styles = StyleSheet.create({
-    page: { flex: 1 },
+    page: { flex: 1, },
     container: {
-        height: "20%",
+        height: "50%",
         width: "100%",
-        backgroundColor: COLORS.green
-    }
+        backgroundColor: COLORS.green,
+
+    },
+
 
 })
