@@ -23,7 +23,7 @@ const statusData = [
   },
   {
     id: 3,
-    image: images.pic1,
+    image: images.pic4,
     name: "Damola",
     text: "God is the Greatest",
     time: "20 minites ago",
@@ -33,7 +33,7 @@ const statusData = [
   },
   {
     id: 4,
-    image: images.pic1,
+    image: images.pic5,
     name: "My Status",
     text: "God is the Greatest",
     time: "Today, 10:45AM",
@@ -43,7 +43,7 @@ const statusData = [
   },
   {
     id: 5,
-    image: images.pic1,
+    image: images.pic6,
     name: "My Status",
     text: "God is the Greatest",
     time: "Today, 10:47AM",
@@ -53,7 +53,7 @@ const statusData = [
   },
   {
     id: 6,
-    image: images.pic1,
+    image: images.pic7,
     name: "My Status",
     text: "God is the Greatest",
     time: "Today, 10:47AM",
@@ -63,7 +63,7 @@ const statusData = [
   },
   {
     id: 7,
-    image: images.pic1,
+    image: images.pic3,
     name: "My Status",
     text: "God is the Greatest",
     time: "Today, 10:47AM",
@@ -73,7 +73,7 @@ const statusData = [
   },
   {
     id: 8,
-    image: images.pic1,
+    image: images.pic4,
     name: "My Status",
     text: "God is the Greatest",
     time: "Today, 10:47AM",
@@ -93,7 +93,7 @@ const statusData = [
   },
   {
     id: 10,
-    image: images.pic1,
+    image: images.pic4,
     name: "Sis Abigeal",
     text: "God is the Greatest",
     time: "Today, 10:47AM",
@@ -126,7 +126,7 @@ const statusData = [
 
   {
     id: 13,
-    image: images.pic7,
+    image: images.pic6,
     text: "God is the Greatest",
     name: "My Status",
     time: "Today, 10:47AM",
@@ -137,7 +137,7 @@ const statusData = [
 
   {
     id: 14,
-    image: images.pic7,
+    image: images.pic4,
     text: "God is the Greatest",
     name: "My Status",
     time: "Today, 10:47AM",

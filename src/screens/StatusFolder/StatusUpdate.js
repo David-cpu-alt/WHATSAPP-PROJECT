@@ -51,8 +51,8 @@ const StatusUpdate = ({ route, navigation }) => {
           <Image
             source={pic6}
             style={{
-              height: SIZES.h1 * 2,
-              width: SIZES.h1 * 2,
+              height: SIZES.h1 * 1.5,
+              width: SIZES.h1 * 1.5,
               borderRadius: SIZES.h1,
             }}
           />

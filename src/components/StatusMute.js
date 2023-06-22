@@ -83,7 +83,7 @@ export default StatusMute;
 
 const styles = StyleSheet.create({
   image: {
-    borderColor: COLORS.blue,
+    borderColor: COLORS.green,
     borderWidth: SIZES.h5 / 3,
     borderRadius: SIZES.h1 * 6,
     height: SIZES.h1 * 2.6,
