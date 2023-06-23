@@ -2,7 +2,7 @@ export const camera = require("../../assets/icons/camera.png");
 export const search = require("../../assets/icons/search.png");
 export const threedots = require("../../assets/icons/threedots.png");
 export const ca = require("../../assets/icons/ca.png");
-// export const camera = require("../../assets/icons/camera.png");
+export const plus1 = require("../../assets/icons/plus1.png");
 export const community = require("../../assets/icons/community.png");
 export const padlock = require("../../assets/icons/padlock.png");
 export const pen = require("../../assets/icons/pen.png");
@@ -18,6 +18,7 @@ export default {
   right,
   speaker,
   backarrow,
+  plus1,
   search,
   threedots,
   community,

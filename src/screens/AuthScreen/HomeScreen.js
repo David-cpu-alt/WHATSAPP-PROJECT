@@ -5,17 +5,18 @@ import Toptab from "../../../navigator/Toptab";
 const HomeScreen = () => {
   return (
     <View style={styles.page}>
-      <StatusBar backgroundColor="#228C22" barStyle="light-content" />
+      <StatusBar backgroundColor="#008069" barStyle="light-content" />
 
       <View style={styles.container}>
         <View
           style={{
             flexDirection: "row",
             justifyContent: "space-between",
-            marginTop: SIZES.h6,
+            marginTop: SIZES.h5,
+            paddingHorizontal: SIZES.h5,
           }}
         >
-          <Text style={{ color: COLORS.white, ...FONTS.body2 }}> Whatsapp</Text>
+          <Text style={{ color: COLORS.white, ...FONTS.h2 }}> Whatsapp</Text>
           <Image
             source={icons.camera}
             style={{

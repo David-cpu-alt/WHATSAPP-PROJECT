@@ -55,7 +55,7 @@ const Status = ({ navigation }) => {
           }}
         />
         <View>
-          <Text style={{ ...FONTS.body2a, fontWeight: "bold" }}>
+          <Text style={{ ...FONTS.h3, fontWeight: "bold", color: COLORS.grey }}>
             Recent Updates
           </Text>
         </View>
@@ -149,13 +149,13 @@ export default Status;
 
 const styles = StyleSheet.create({
   page: {
-    // flex: 1,
+    flex: 1,
     backgroundColor: COLORS.white,
     paddingHorizontal: SIZES.h2,
   },
   image: {
-    borderColor: COLORS.green,
-    borderWidth: SIZES.h5 / 3,
+    borderColor: COLORS.green3,
+    borderWidth: SIZES.h5 / 4,
     borderRadius: SIZES.h1 * 6,
     height: SIZES.h1 * 2.6,
     width: SIZES.h1 * 2.6,

@@ -14,17 +14,19 @@ export const COLORS = {
   brown: "#26262d",
   white: "#ffffff",
   black: "#000000",
-  grey: "#161615",
+  grey: "#aabbcc",
   yellow: "yellow",
   // chocolate: '#9fa09e',
-  chocolate: "#5d5c6c",
+  chocolate: "#272727",
   chocolateBackground: "#CECFCD",
   grey2: "#f6f5fa",
   grey3: "#efefef",
   indigo: "indigo",
   semiblue: "#538ef1",
   red: "red",
-  green: "#228C22",
+  green: "#008069",
+  lightgreen: "#D7FBD1",
+  green3: "#00cd00",
 };
 
 export const SIZES = {

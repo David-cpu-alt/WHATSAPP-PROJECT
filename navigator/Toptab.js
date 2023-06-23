@@ -17,7 +17,10 @@ const Toptab = () => {
           color: COLORS.white,
           ...FONTS.body2,
         },
-        tabBarIndicatorStyle: { backgroundColor: COLORS.white },
+        tabBarIndicatorStyle: {
+          width: SIZES.h1 * 2.5,
+          backgroundColor: COLORS.white,
+        },
         tabBarStyle: { backgroundColor: COLORS.green },
 
         tabBarIcon: ({ focused, size }) => {
@@ -27,9 +30,9 @@ const Toptab = () => {
               <Image
                 source={icons.community}
                 style={{
-                  height: SIZES.h2,
+                  height: SIZES.h1,
                   tintColor: COLORS.white,
-                  width: SIZES.h2,
+                  width: SIZES.h1,
                   marginTop: SIZES.h3,
                 }}
               />

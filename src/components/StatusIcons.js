@@ -9,7 +9,11 @@ const StatusIcons = () => {
       <TouchableOpacity style={styles.boxctn}>
         <Image
           source={icons.pen}
-          style={{ height: SIZES.h2, width: SIZES.h2, tintColor: COLORS.white }}
+          style={{
+            height: SIZES.h2,
+            width: SIZES.h2,
+            tintColor: COLORS.chocolate,
+          }}
         />
       </TouchableOpacity>
       <TouchableOpacity style={styles.boxctn1}>
@@ -29,7 +33,7 @@ const styles = StyleSheet.create({
     height: SIZES.h1 * 1.8,
     width: SIZES.h1 * 1.8,
     borderRadius: SIZES.h1,
-    backgroundColor: COLORS.chocolate,
+    backgroundColor: COLORS.grey,
     alignItems: "center",
     justifyContent: "center",
     marginVertical: SIZES.h5,
