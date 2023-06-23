@@ -186,10 +186,7 @@ const Community = () => {
                         SHOLA: {item.text2}
                       </Text>
                     </View>
-                    <View>
-                      {/* LINES IN BOX */}
-                      <CommunityBox />
-                    </View>
+
                     {/* VIEW  */}
                     <View
                       style={{
