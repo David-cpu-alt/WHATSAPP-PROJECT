@@ -1,14 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+export const smiley = require("../../assets/images/smiley.jpeg")
+export const beautiful = require("../../assets/images/beautiful.jpeg")
 
-const images = () => {
-  return (
-    <View>
-      <Text>images</Text>
-    </View>
-  )
-}
-
-export default images
-
-const styles = StyleSheet.create({})
+export default { smiley, beautiful, }

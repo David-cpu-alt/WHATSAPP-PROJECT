@@ -14,7 +14,7 @@ export const COLORS = {
     brown: "#26262d",
     white: "#ffffff",
     black: "#000000",
-    grey: "#161615",
+    grey: "#ECE5DD",
     yellow: "yellow",
     // chocolate: '#9fa09e',
     chocolate: "#5d5c6c",
@@ -24,7 +24,7 @@ export const COLORS = {
     indigo: "indigo",
     semiblue: "#538ef1",
     red: "red",
-    green: "#228C22"
+    green: "#075E54"
 };
 
 export const SIZES = {

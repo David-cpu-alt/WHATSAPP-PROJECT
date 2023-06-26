@@ -3,13 +3,14 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import AuthStack from './navigator/AuthStack'
+import { COLORS } from './src/constants'
 
 const App = () => {
   const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer >
       <StatusBar
-        backgroundColor="#228C22"
+        backgroundColor="#075E54"
         barStyle="light-content"
       />
       <Stack.Navigator screenOptions={{ headerShown: false }}>
