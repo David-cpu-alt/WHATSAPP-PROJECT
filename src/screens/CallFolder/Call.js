@@ -2,6 +2,8 @@ import { FlatList, StyleSheet, Text, View, Image, TouchableOpacity } from 'react
 import React from 'react'
 import RenderTemplate from '../../components/RenderTemplate'
 import { COLORS, FONTS, SIZES, icons, images } from '../../constants'
+import { useNavigation } from '@react-navigation/native'
+
 const calls = [
     {
         id: 1,
@@ -57,6 +59,7 @@ const calls = [
 
 ]
 const _renderheader = () => {
+    const navigation = useNavigation();
     return (
         <View>
             <FlatList
@@ -66,7 +69,8 @@ const _renderheader = () => {
         </View>
     )
 }
-const Call = () => {
+const Call = ({ }) => {
+    const navigation = useNavigation();
     return (
         <View style={styles.page}>
             <FlatList
@@ -75,7 +79,7 @@ const Call = () => {
                 showsVerticalScrollIndicator={false}
                 renderItem={({ item }) => {
                     return (
-                        <TouchableOpacity style={{ flexDirection: "row" }}>
+                        <TouchableOpacity onPress={() => navigation.navigate("CallDetails", { item })} style={{ flexDirection: "row" }}>
                             <View style={styles.profile}>
                                 <Image source={item.image2} style={{ height: SIZES.h1 * 2.6, width: SIZES.h1 * 2.5, borderRadius: SIZES.base * 7.5 }} />
                             </View>
@@ -101,17 +105,20 @@ const Call = () => {
                 left: SIZES.h1 * 7.5
             }}>
                 <View style={{
-                    height: SIZES.h1 * 2.8,
-                    width: SIZES.h2 * 3.8,
+                    height: SIZES.h1 * 2.2,
+                    width: SIZES.h2 * 3.0,
                     backgroundColor: COLORS.green,
                     borderRadius: SIZES.base * 6,
                     marginBottom: SIZES.h3 * 0.8,
-                    paddingTop: SIZES.h3,
+                    paddingTop: SIZES.h4,
                     alignSelf: "center",
                     alignItems: "center"
 
                 }}>
-                    <Text style={{ color: "white", fontWeight: "bold", ...FONTS.body1 }}>+</Text>
+                    <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
+                        <Image source={icons.phone} style={{ height: SIZES.h1 * 1.0, width: SIZES.h2 * 1.2, marginTop: SIZES.h5 * 0.5 }} />
+                        <Text style={{ color: "white", fontWeight: "bold", ...FONTS.body1, marginBottom: SIZES.h4, right: SIZES.h6 }}>+</Text>
+                    </View>
                 </View>
             </View>
         </View>
@@ -127,8 +134,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
     },
     profile: {
-        height: SIZES.h1 * 2.8,
-        width: SIZES.h2 * 3.8,
+        height: SIZES.h1 * 2.2,
+        width: SIZES.h2 * 3.0,
         backgroundColor: COLORS.grey,
         borderRadius: SIZES.base * 6,
         marginTop: SIZES.h3 * 0.8,
